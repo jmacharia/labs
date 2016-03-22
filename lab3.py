@@ -30,7 +30,7 @@ def oldest_student(student_list):
 def student_lang(lang):
     '''
     returns a list containing names of students who know a particular language.
-    agrs ->  lang
+    args ->  lang
     '''
     known_lang = []
     for i in range(len(student_list)):
